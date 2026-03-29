@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Quiz Cuba",
+    "slug": "quizcuba",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1B2A"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0D1B2A"
+      },
+      "package": "com.yopcubita.quizcuba"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "85c253e5-4a94-4f41-a237-d0d4d9f9fe5b"
+      }
+    }
+  }
+}
